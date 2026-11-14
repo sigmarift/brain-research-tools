@@ -1,0 +1,26 @@
+# WorldQuant ACE files: never commit (not ours to redistribute)
+ace_lib.py
+helpful_functions.py
+ace/*.py
+ace/*.ipynb
+
+# credentials and sessions
+secrets/
+*.pkl
+session.meta.json
+llm.json
+platform-brain.json
+.env
+
+# run outputs
+research_runs/
+python_alphas/
+*.log
+
+# python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
